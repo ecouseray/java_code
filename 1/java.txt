@@ -1,0 +1,22 @@
+java se   桌面
+java me  淘汰
+java ee  网站 ==》  网站 == 网页(数据展示) + 服务器(数据处理)、
+
+跨平台原理：
+平台(操作系统)  可以在任何操作系统上运行  不同的操作系统上安装 翻译 (JVM java virtual machine 虚拟机)
+
+虚拟机本身不可以跨平台 运行跨平台的是 java 程序
+
+JRE    JDK   java development kit  java 语言软件开发工具包，包含了代码的编译工具和运行工具
+java runtime environment == JVM + java核心类库
+类：java文件在代码中的集合体现  类 == java文件  一个java文件  一个java类
+类库： 存放多个java文件的仓库
+核心类库： java已经写好的，非常核心的，代码仓库 == 头文件
+重点理解： 我们自己编写代码的过程中，需要用到java存放在JRE中，已经写好的java文件
+ JRE ==  JDK == (JVM + 核心类库)+ 开发工具
+
+public class main {
+	public static void main(String args[]){
+		println("HelloWorld\n");
+	}
+}
